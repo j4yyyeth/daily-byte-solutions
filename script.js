@@ -103,3 +103,7 @@ function jewelsAndStones(jewels, stones) {
 }
 
 // 9/28/2023
+
+function validAnagram(s, t) {
+  return s.split("").sort().join() === t.split("").sort().join() ? true : false;
+}
