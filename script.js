@@ -87,3 +87,19 @@ function twoSum(arr, k) {
   }
   return false;
 }
+
+// 9/27/2023
+
+function jewelsAndStones(jewels, stones) {
+  let total = 0;
+  for (let i = 0; i < stones.length; i++) {
+    for (let j = 0; j < jewels.length; j++) {
+      if (stones[i] === jewels[j]) {
+        total += 1;
+      }
+    }
+  }
+  return total;
+}
+
+// 9/28/2023
